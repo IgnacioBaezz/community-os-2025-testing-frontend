@@ -22,4 +22,10 @@ describe('Calcular los descuentos', () => {
         let result = calculateDiscount(2)
         expect(result).toBe(expectedResult);
     });
+            it('Descuento entre 0 y 3 dias restantes', () => {
+        // Aquí va el código de la prueba 3
+        let expectedResult = -1
+        let result = calculateDiscount()
+        expect(result).toBe(expectedResult);
+    });
 });
