@@ -1,6 +1,21 @@
 {
   "devDependencies": {
+    "@playwright/test": "^1.54.2",
     "@vitest/coverage-v8": "^3.2.4",
+    "jsdom": "^26.1.0",
     "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "date-fns": "^4.1.0",
+    "leaflet": "^1.9.4",
+    "vite": "^7.1.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run --coverage",
+    "preview": "vite preview",
+    "test:e2e": "playwright test"
   }
 }
